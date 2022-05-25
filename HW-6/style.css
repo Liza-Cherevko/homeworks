@@ -1,0 +1,361 @@
+*, html, body{
+   margin: 0;
+   padding: 0;
+}
+
+.drawing{
+   margin-left: 60px;
+   width: 984px; 
+   height: 1804px;
+   
+} 
+
+/* ears */
+.ears-container{
+    width: 984px ; 
+    height: 181px;
+ }
+  .ears{
+    width: 264px ; 
+    height: 182px; 
+    /* margin-top:10px; */
+  
+
+   
+  }
+ .left-ears{
+     background-color:rgb(166, 92, 235);
+       float: left;
+       margin-left: 74px;       
+ }
+  .inside-ears{
+   width: 150px;
+   height: 137px;
+   background-color: rgb(233, 173, 42);;
+   margin-top: 26px;
+   margin-left: 55px;
+ }  
+   
+ .right-ears{
+ background-color:rgb(166, 92, 235);
+ float: right;
+ margin-right: 74px;
+ 
+ }
+  
+ /* head */
+ .head{
+ padding-top: 95px;
+ 
+width: 984px;
+height: 545px;
+background-color: rgb(166, 92, 235);
+} 
+/* eyes */
+.eyes-container{
+width: 732px;
+height: 170px;
+padding-bottom: 57px;
+padding-left: 126px;
+padding-right: 126px ;
+/* background: rgb(207, 198, 198); */
+}
+ .eyes{
+width: 267px;
+height: 178px;
+
+
+ }
+ .left-eyes{
+   background-color: rgb(233, 173, 42);
+   float: left;
+   
+ }
+.right-eyes{
+   background-color: rgb(233, 173, 42);
+   float: right;
+}
+.inside-eyes{
+ margin-top: 63px;
+ margin-left: 173px;
+  width: 93px;
+  height: 117px;
+  background-color: black; 
+}
+.inside-right-eyes{
+   margin-top: 63px;
+   margin-right: 173px;
+    width: 93px;
+    height: 117px;
+    background-color: black;
+}
+/* nose */
+.nose-container{
+ width: 298px;
+height: 112px;
+padding-left:  343px;
+padding-right: 343px;
+}
+.nose{
+width: 324px;
+height: 112px;
+background-color: rgb(243, 199, 116);
+}
+.nose-one{
+   margin-top: 26px;
+   margin-left: 26px;
+   width: 65px;
+   height: 87px;
+   background-color: rgb(226, 45, 75);
+   float: left;
+}
+.nose-two{
+   margin-top: 26px;
+   margin-right: 26px;
+   width: 65px;
+   height: 87px;
+   background-color: rgb(226, 45, 75); 
+   float: right;
+}
+
+
+.mouth-container
+{
+   margin-top: 40px;
+   width: 984px;
+   height: 90px;
+   /* background-color: rgb(242, 243, 176); */
+}
+.mouth{
+   width: 760px;
+   height: 100px;
+   background-color: red;
+   margin-right: 113px;
+   margin-left: 113px;
+}
+.teeth-container{
+   width: 760px;
+   height: 100px;   
+}
+  
+
+.teeth-bl1{
+   width: 60px;
+   height: 50px;
+   background-color: rgb(12, 6, 6);
+   margin-left: 114px;
+   float: left;
+     }
+
+
+  .teeth-bl2{
+width: 60px;
+height: 50px;
+background-color: rgb(3, 2, 2);
+margin-left: 53px;
+float: left;
+  }
+  .teeth-bl3{
+   width: 60px;
+   height: 50px;
+   background-color: rgb(3, 2, 2);
+   margin-left: 53px;
+   float: left;
+     }
+     .teeth-bl4{
+      width: 60px;
+      height: 50px;
+      background-color: rgb(3, 2, 2);
+      margin-left: 53px;
+      float: left;
+        }
+        .teeth-bl5{
+         width: 60px;
+         height: 50px;
+         background-color: rgb(3, 2, 2);
+         margin-left: 53px;
+         float: left;
+           }
+           .teeth-bl6{
+            width: 60px;
+            height: 50px;
+            background-color: rgb(3, 2, 2);
+            margin-left: 53px;
+            float: left;
+              }
+
+ .teeth-wh1{
+   width: 60px;
+   height: 50px;
+   background-color: white;
+   margin-left: 53px;
+   float: left;
+     }
+     .teeth-wh2{
+      width: 60px;
+      height: 50px;
+      background-color: white;
+      margin-left: 53px;
+      float: left;
+        }
+        .teeth-wh3{
+         width: 60px;
+         height: 50px;
+         background-color: white;
+         margin-left: 53px;
+         float: left;
+           }
+           .teeth-wh4{
+            width: 60px;
+            height: 50px;
+            background-color: white;
+            margin-left: 53px;
+            float: left;
+              }
+              .teeth-wh5{
+               width: 60px;
+               height: 50px;
+               background-color: white;
+               margin-left: 53px;
+               float: left;
+                 }
+                 .teeth-wh6{
+                  width: 60px;
+                  height: 50px;
+                  background-color: white;
+                  margin-left: 53px;
+                  float: left;
+                    }
+
+
+
+
+
+
+
+
+/* neck */
+.neck{
+width: 171px;
+height: 63px;
+background-color: rgb(166, 92, 235);
+margin-left: 406px;
+padding-top: 30px;
+}
+.collar{
+   width: 171px;
+   height: 31px;
+   background-color: darkorange;
+}
+
+/* hands */
+
+.left-h{
+   border-radius: 9px;
+width: 80px;
+height: 175px;
+margin-left: 57px;
+margin-top: 70px; 
+float: left;
+background-color: rgb(166, 92, 235);
+}
+
+.right-h{
+   border-radius: 9px;
+   width: 80px;
+   height: 175px;
+   margin-right:57px;
+   margin-top: 70px; 
+   float: right;
+   background-color: rgb(166, 92, 235);
+}
+
+.l-hooves{
+   width: 40px;
+   height: 175px;
+   border-radius: 15px;
+   background-color: black;
+float:left;
+}
+
+.r-hooves{
+   width: 40px;
+   height: 175px;
+   border-radius: 15px;
+   background-color: black;
+float: right;
+}
+
+/* body */
+.body{
+   border-radius: 15px;
+   width: 546px;
+   height: 486px;
+   background-color: rgb(166, 92, 235);
+   margin-left: 136px;
+   padding-top: 260px ;
+   padding-left: 171px ;
+}
+
+ /* circle  */
+.circle{
+   background-color: rgb(231, 17, 178);
+   width:440px;
+   height:440px;
+   display:block;
+   border-radius:240px; 
+}
+
+ /* legs */
+.legs{
+   width: 165px;
+   height: 118px;
+  
+   
+}
+.legs-container{
+   width: 576px;
+   height: 118px;
+   margin-left: 204px;
+   margin-right: 204px;
+}
+ 
+.left-leg{
+   background-color: rgb(166, 92, 235);
+ float: left;
+ border-radius: 9px;
+}
+.right-leg{
+   background-color: rgb(166, 92, 235);
+  float: right;
+  border-radius: 9px;
+}
+
+
+
+.legs-hooves{
+   width: 165px;
+   height: 45px;
+   border-radius: 15px;   
+}
+
+.hooves-container{
+   width: 984px;
+   height: 45px;
+   
+   /* margin-left: 204px;
+   margin-right: 204px; */
+   }
+
+.left-hooves{
+ background-color: black;
+ float: left;
+ margin-left: 204px;
+}
+
+.right-hooves{
+ background-color: black;
+ float: right;
+ margin-right: 204px;
+}
+

@@ -1,0 +1,57 @@
+body {
+    margin: 0;
+    font-family: 'Raleway', sans-serif;
+    font-size: 14px;
+    color: #6c7279;
+   background: #141b23;     
+}
+
+/*  header  */
+.header{
+    
+padding-top: 65px;
+padding-left: 40px;
+}
+
+/* nav */
+.nav{
+ width: 350px ;
+
+}
+li{
+   float: left;
+   margin-right: 25px;
+}  
+   
+.text-container{
+    position: absolute;
+    width: 500px;
+    height: 350px;
+    color: white;
+margin-top: 80px;
+margin-left: 90px;
+}
+
+.wrap{
+    margin-left: 23px;
+    text-align: left;
+} 
+
+/*  Bitmap  */
+.Bitmap{
+  margin-top: 0;
+    margin-right: 400px; 
+     width: 664px; 
+     height: 500px;
+}
+
+/* .Bitmap{ 
+       position: absolute;
+    right: 0;
+    top: 0;
+     margin-top: 0; 
+    margin-left: 400px; 
+ width: 664px; 
+ height: 360px;
+} */
+

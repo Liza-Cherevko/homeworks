@@ -1,0 +1,129 @@
+*, html, body{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.menu{
+background: whitesmoke;
+font-size: 0;
+}
+
+.menu-item {
+position: absolute;
+display: inline-block;
+font-size: 1rem;
+position: relative;
+
+}
+
+
+
+.menu-item-link{
+    transition:  0.6s ease, color 0.5s linear;
+    display: block;
+    padding: 10px 20px;
+    color: burlywood;
+     text-transform: uppercase;
+     border-right: 1px solid rgb(82, 82, 82);
+     border-bottom: 1px solid #afafaf; 
+}
+
+.menu-item-link:hover{
+    background: #fff;
+    color: black;
+}
+
+.menu-item :last-child .menu-item-link{
+    border: none;
+}
+
+.menu-inner{
+    position: absolute;
+    left: 0;
+    top: 100%;
+    width: 100%;
+    background: #fff;
+    border:1px solid #afafaf; 
+    display: none;
+}
+
+.menu-item:hover .menu-inner{
+    display: block;
+}
+.menu-item-mobile{
+ position: absolute;
+display: inline-block;
+font-size: 1rem;
+position: relative;
+}
+.mobile-inner{
+    position: absolute;
+    left: 109%;
+    top: 0;
+    width: 100%;
+    display: none; 
+    background: #fff;
+    border:1px solid #afafaf;  
+}
+.catalog-item-link{
+    display: block;
+  padding: 10px 20px;
+ text-transform: uppercase;   
+}
+
+.menu-item-mobile:hover .mobile-inner {
+    display: block;
+}
+.menu-item-pc{
+    position: absolute;
+    display: inline-block;
+    font-size: 1rem;
+    position: relative;  
+}
+.pc-inner{
+    position: absolute;
+    left: 175%;
+    top: -100%;
+    width: 163%;
+    display: none; 
+    background: #fff;
+    border:1px solid #afafaf; 
+}
+
+.menu-item-pc:hover .pc-inner {
+    display: block;
+}
+
+
+.menu-item-tv{
+    position: absolute;
+    display: inline-block;
+    font-size: 1rem;
+    position: relative;  
+}
+
+
+.tv-inner{
+    position: absolute;
+    left: 183%;
+    top: -200%;
+    width: 166%;
+    display: none; 
+    background: #fff;
+    border:1px solid #afafaf;  
+}
+
+.menu-item-tv:hover .tv-inner {
+    display: block;
+}
+
+
+
+
+
+
+

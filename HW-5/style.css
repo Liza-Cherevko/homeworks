@@ -1,0 +1,41 @@
+body {
+    display: block;
+    margin: 0;
+    padding: 40px ;
+    font-family: 'Raleway', sans-serif;
+    font-size: 14px;
+    background-color: #b6acae 
+}
+header{
+text-align: center;
+}
+.name{
+  text-shadow:  0 0 5px red
+}
+.chapter_1{
+ text-shadow: 0 0 3px rgb(59, 77, 62);
+
+}
+
+p{
+    line-height: 20px;
+    text-indent: 20px;
+}
+ q{
+    color: rgb(95, 4, 4);
+ }
+.insert{
+    font-size: 14px;
+    text-decoration-line: underline;
+    color: rgb(0, 11, 112);
+ }
+.Queens_smile{
+   text-decoration-line: overline;
+   color: rgb(66, 61, 16);
+
+}
+.stars{
+    text-align: center;
+    color: rgb(10, 0, 70);
+    font-size: 25px;
+}

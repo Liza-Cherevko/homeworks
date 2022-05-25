@@ -1,0 +1,30 @@
+@mixin title {
+    font-style: normal;
+font-weight: 700;
+    font-size: 36px;
+}
+@mixin title-text {
+    font-style: normal;
+font-weight: 400;
+font-size: 16px;
+color: #999999;
+}
+@mixin button {
+    color: #FFFFFF;
+    text-decoration: none;
+    border: none;
+    border-radius: 20px;
+    background-color: #4985FF;
+    width: 200px;
+    height: 45px;
+    padding: 13px 35px;
+    margin: 55px auto;
+    display:block;
+    
+}
+@mixin link {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    color: #4985FF;
+}
